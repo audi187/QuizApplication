@@ -22,8 +22,8 @@ Email:	'.$_POST['email'].'';
     $mail->Encoding = '7bit';
     
     // Authentication  
-    $mail->Username   = "2015aditya.bhatia@ves.ac.in"; // Your full Gmail address
-    $mail->Password   = "Adityanexus5"; // Your Gmail password
+    $mail->Username   = ""; // Your full Gmail address
+    $mail->Password   = ""; // Your Gmail password
       
     // Compose
     $mail->SetFrom($_POST['email']);
