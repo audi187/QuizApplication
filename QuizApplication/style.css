@@ -1,0 +1,166 @@
+/* CSS Document */
+html, body {
+	height: 100%;
+	flex-wrap: wrap;
+}
+
+h1,h2,h3,h4, h5, h6, p {
+	margin-bottom: 20px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size:40px;
+	
+	
+}
+h3{
+margin-top: 100px;
+}
+
+.back{
+	background-repeat: no-repeat;
+}
+.container{
+	}
+.menu{
+	height: 100%;
+	width:200px;
+	background-color:#FF851B;
+	float: left;
+	position: fixed;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	height :50px;
+	margin-top:70px;
+	background-color: rgba(0,0,0,.5);
+	z-index :99;
+	margin-left: 200px;
+
+}
+
+
+nav a {
+	text-decoration:none;
+	color:#F9F9F9;
+	margin-left: 30px;
+	line-height: 50px;
+}
+
+.head
+{
+	align-content: center;
+	font-size: 50px;
+	height:70px;
+	width:100%;
+	margin-left: 200px;
+	position: fixed;
+	float:left;
+	color:aliceblue;
+	background-color:#0074D9;
+	font-family:Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	
+}
+
+.sectone{
+	height: 120px;
+}
+
+.subsectone{
+	background-image:url(images/back-11.jpeg);
+	background-size: 100%;
+	padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+.fixed-size {
+  width: 250px;
+  height: 200px;
+  background-color: #2ECC40;
+  color: #FFF;
+  line-height: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+  background-size: cover;
+  border:20px;
+  border-color: aliceblue;
+  background-image: url(images/technology.jpg);
+  -webkit-transition: width .2s, height .4s; /* Safari */
+  transition: width .1s, height .2s;
+  
+}
+.fixed-size:hover
+{
+	width: 300px;
+	height: 250px;
+	font-size:50px;
+	font-weight: 900;
+}
+div.fixed-size:hover:after
+{
+	content : "Levels";
+	
+	
+	
+
+}
+#b1{background-image: url(images/backimg2.jpg); }
+#b2{background-image: url(images/math.jpg);}
+#b3{background-image: url(images/mba.jpg);}
+#b4{background-image: url(images/gmat.jpg);}
+#b5{background-image: url(images/jee.jpg);}
+#b6{background-image: url(images/back-111.jpeg);}
+#b7{background-image: url(images/neet.jpg);}
+#b8{background-image: url(images/cat1.jpg);}
+
+
+
+
+.subsecttwo{
+	background-image: url(images/123.jpeg);
+	background-size: 100%;
+	padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#b9{background-image: url(images/backimg2.jpg);}
+#b10{background-image: url(images/history.jpg);}
+#b11{background-image: url(images/geography.jpg);}
+#b12{background-image: url(images/grammar.jpg);}
+#b13{background-image: url(images/worldaffairs.jpg);}
+#b14{background-image: url(images/gk.jpg);}
+#b15{background-image: url(images/english.jpg);}
+#b16{background-image: url(images/science.jpg);}
+
+.subsectthree{
+	background-image: url(images/1.jpeg);
+	background-size: 100%;
+	padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#b17{background-image: url(images/sports.jpg);}
+#b18{background-image: url(images/technology.jpg);}
+#b19{background-image: url(images/music.jpg);}
+#b20{background-image: url(images/culture.jpg);}
+#b21{background-image: url(images/movies.jpg);}
+#b22{background-image: url(images/sitcom.jpg);}
+#b23{background-image: url(images/english.jpg);}
+
